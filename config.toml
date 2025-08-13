@@ -1,7 +1,7 @@
 baseURL = "https://www.afeather.art/"
 languageCode = "en-us"
 title = "A Feather's Gallery"
-theme = "hugo-theme-gallery"
+theme = "gallery"
 disableKinds = ["taxonomy", "term"]
 
 
