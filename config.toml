@@ -1,7 +1,7 @@
 baseURL = "https://www.afeather.art/"
 languageCode = "en-us"
 title = "A Feather.Art"
-theme = "hugo-photoswipe"
+theme = "hugo-photoswipe5-gallery"
 
 [params]
   description = "Welcome to afeather gallery"
