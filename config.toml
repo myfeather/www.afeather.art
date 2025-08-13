@@ -1,8 +1,20 @@
 baseURL = "https://www.afeather.art/"
 languageCode = "en-us"
-title = "A Feather.Art"
-theme = "hugo-photoswipe5-gallery"
+title = "A Feather's Gallery"
+theme = "hugo-theme-gallery"
+disableKinds = ["taxonomy", "term"]
 
-[params]
-  description = "Welcome to afeather gallery"
-  author = "A Feather"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+# 图片处理配置：你可以调整质量等
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription"
