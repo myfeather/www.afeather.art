@@ -1,0 +1,8 @@
+baseURL = "https://www.afeather.art/"
+languageCode = "en-us"
+title = "A Feather.Art"
+theme = "hugo-photoswipe"
+
+[params]
+  description = "Welcome to afeather gallery"
+  author = "A Feather"
